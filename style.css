@@ -15,9 +15,14 @@ body {
 main {
   display: grid;
   grid-auto-flow: row;
+  margin-top: 35px;
   width: 90%;
-  gap: 10px;
+  gap: 25px;
   background-color: hsl(210, 46%, 95%);
+}
+
+section {
+  border-radius: 10px;
 }
 
 header {
